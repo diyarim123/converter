@@ -1,9 +1,13 @@
-import { RouterProvider } from "@tanstack/react-router"
-import router from "./router/routes"
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-      <RouterProvider router={router} />
+    <BrowserRouter>
+      <Routes>
+        {/* Add your routes here */}
+        {/* Example: <Route path="/" element={<Home />} /> */}
+      </Routes>
+    </BrowserRouter>
   )
 }
 
