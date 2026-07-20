@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function home() {
   return (
@@ -7,16 +8,13 @@ export default function home() {
         <h1 className="font-bold font-white">File Converter<span className="font-bold text-2xl text-orange-500">.</span></h1>
         <ul className="nav-links">
           <li>
-            <a href="#home">Home</a>
+            <NavLink className="link" to="/">Files</NavLink>
           </li>
           <li>
-            <a href="#about">About</a>
+            <NavLink className="link" to="/about">Images</NavLink>
           </li>
           <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+            <NavLink className="link" to="/services">Currencies</NavLink>
           </li>
         </ul>
       </nav>
