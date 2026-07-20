@@ -3,12 +3,12 @@ import Home from '../pages/home';
 
 export default function MainLayout() {
   return (
-    <div className='flex flex-col gap-5 items-center'>
+    <div className='h-screen w-[75%] m-0 grid grid-rows-[auto_1fr]'>
       <header>
         <Home />
       </header>
 
-      <main className='flex flex-col gap-5'>
+      <main className='main-content'>
         <Outlet />
       </main>
     </div>
