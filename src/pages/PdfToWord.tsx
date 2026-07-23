@@ -1,8 +1,9 @@
 import { Group, Text } from '@mantine/core';
 import { UploadSimpleIcon, ImageIcon, XIcon } from '@phosphor-icons/react';
 import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone';
+import type { DropzoneProps } from '@mantine/dropzone';
 
-export default function PdfToWord(props) {
+export default function PdfToWord(props: Partial<DropzoneProps>) {
   return (
     <Dropzone
       onDrop={(files) => console.log('accepted files', files)}
