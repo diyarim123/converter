@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="navbar">
       <h1 className="font-bold font-white">
         File Converter
-        <span className="font-bold text-2xl text-orange-500">.</span>
+        <span className="font-bold text-2xl text-purple-500">.</span>
       </h1>
       <ul className="nav-links">
         <li>

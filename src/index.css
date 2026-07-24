@@ -51,15 +51,15 @@ body {
 }
 
 .link:hover {
-  color: orange;
+  color: purple;
   font-weight: bold;
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid purple;
 }
 
 .active {
-  color: orange;
+  color: purple;
   font-weight: bold;
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid purple;
 }
 
 
